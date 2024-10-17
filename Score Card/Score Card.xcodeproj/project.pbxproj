@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D55132C2C6C013D00098734 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3D55132B2C6C013D00098734 /* FirebaseAnalytics */; };
+		3D55132E2C6C02C200098734 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3D55132D2C6C02C200098734 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA109A02C6ADF85007AD3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA109872C6ADF84007AD3C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA1098E2C6ADF84007AD3C4;
+			remoteInfo = "Score Card";
+		};
+		3DA109AA2C6ADF85007AD3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA109872C6ADF84007AD3C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA1098E2C6ADF84007AD3C4;
+			remoteInfo = "Score Card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA1098F2C6ADF84007AD3C4 /* Score Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA1099F2C6ADF85007AD3C4 /* Score CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA109A92C6ADF85007AD3C4 /* Score CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3DA109912C6ADF84007AD3C4 /* Score Card */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Score Card";
+			sourceTree = "<group>";
+		};
+		3DA109A22C6ADF85007AD3C4 /* Score CardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Score CardTests";
+			sourceTree = "<group>";
+		};
+		3DA109AC2C6ADF85007AD3C4 /* Score CardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Score CardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA1098C2C6ADF84007AD3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D55132E2C6C02C200098734 /* FirebaseDatabase in Frameworks */,
+				3D55132C2C6C013D00098734 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA1099C2C6ADF85007AD3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA109A62C6ADF85007AD3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA109862C6ADF84007AD3C4 = {
+			isa = PBXGroup;
+			children = (
+				3DA109912C6ADF84007AD3C4 /* Score Card */,
+				3DA109A22C6ADF85007AD3C4 /* Score CardTests */,
+				3DA109AC2C6ADF85007AD3C4 /* Score CardUITests */,
+				3DA109902C6ADF84007AD3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA109902C6ADF84007AD3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA1098F2C6ADF84007AD3C4 /* Score Card.app */,
+				3DA1099F2C6ADF85007AD3C4 /* Score CardTests.xctest */,
+				3DA109A92C6ADF85007AD3C4 /* Score CardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA1098E2C6ADF84007AD3C4 /* Score Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA109B32C6ADF85007AD3C4 /* Build configuration list for PBXNativeTarget "Score Card" */;
+			buildPhases = (
+				3DA1098B2C6ADF84007AD3C4 /* Sources */,
+				3DA1098C2C6ADF84007AD3C4 /* Frameworks */,
+				3DA1098D2C6ADF84007AD3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3DA109912C6ADF84007AD3C4 /* Score Card */,
+			);
+			name = "Score Card";
+			packageProductDependencies = (
+				3D55132B2C6C013D00098734 /* FirebaseAnalytics */,
+				3D55132D2C6C02C200098734 /* FirebaseDatabase */,
+			);
+			productName = "Score Card";
+			productReference = 3DA1098F2C6ADF84007AD3C4 /* Score Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA1099E2C6ADF85007AD3C4 /* Score CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA109B62C6ADF85007AD3C4 /* Build configuration list for PBXNativeTarget "Score CardTests" */;
+			buildPhases = (
+				3DA1099B2C6ADF85007AD3C4 /* Sources */,
+				3DA1099C2C6ADF85007AD3C4 /* Frameworks */,
+				3DA1099D2C6ADF85007AD3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA109A12C6ADF85007AD3C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DA109A22C6ADF85007AD3C4 /* Score CardTests */,
+			);
+			name = "Score CardTests";
+			packageProductDependencies = (
+			);
+			productName = "Score CardTests";
+			productReference = 3DA1099F2C6ADF85007AD3C4 /* Score CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DA109A82C6ADF85007AD3C4 /* Score CardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA109B92C6ADF85007AD3C4 /* Build configuration list for PBXNativeTarget "Score CardUITests" */;
+			buildPhases = (
+				3DA109A52C6ADF85007AD3C4 /* Sources */,
+				3DA109A62C6ADF85007AD3C4 /* Frameworks */,
+				3DA109A72C6ADF85007AD3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA109AB2C6ADF85007AD3C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DA109AC2C6ADF85007AD3C4 /* Score CardUITests */,
+			);
+			name = "Score CardUITests";
+			packageProductDependencies = (
+			);
+			productName = "Score CardUITests";
+			productReference = 3DA109A92C6ADF85007AD3C4 /* Score CardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA109872C6ADF84007AD3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3DA1098E2C6ADF84007AD3C4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3DA1099E2C6ADF85007AD3C4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3DA1098E2C6ADF84007AD3C4;
+					};
+					3DA109A82C6ADF85007AD3C4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3DA1098E2C6ADF84007AD3C4;
+					};
+				};
+			};
+			buildConfigurationList = 3DA1098A2C6ADF84007AD3C4 /* Build configuration list for PBXProject "Score Card" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA109862C6ADF84007AD3C4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3D55132A2C6C013D00098734 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3DA109902C6ADF84007AD3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA1098E2C6ADF84007AD3C4 /* Score Card */,
+				3DA1099E2C6ADF85007AD3C4 /* Score CardTests */,
+				3DA109A82C6ADF85007AD3C4 /* Score CardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA1098D2C6ADF84007AD3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA1099D2C6ADF85007AD3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA109A72C6ADF85007AD3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA1098B2C6ADF84007AD3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA1099B2C6ADF85007AD3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA109A52C6ADF85007AD3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA109A12C6ADF85007AD3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA1098E2C6ADF84007AD3C4 /* Score Card */;
+			targetProxy = 3DA109A02C6ADF85007AD3C4 /* PBXContainerItemProxy */;
+		};
+		3DA109AB2C6ADF85007AD3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA1098E2C6ADF84007AD3C4 /* Score Card */;
+			targetProxy = 3DA109AA2C6ADF85007AD3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DA109B12C6ADF85007AD3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA109B22C6ADF85007AD3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA109B42C6ADF85007AD3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Score Card/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamholz.tyler.Score-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA109B52C6ADF85007AD3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Score Card/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamholz.tyler.Score-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DA109B72C6ADF85007AD3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9C3VCN3Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamholz.tyler.Score-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Card.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Score Card";
+			};
+			name = Debug;
+		};
+		3DA109B82C6ADF85007AD3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9C3VCN3Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamholz.tyler.Score-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Card.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Score Card";
+			};
+			name = Release;
+		};
+		3DA109BA2C6ADF85007AD3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9C3VCN3Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamholz.tyler.Score-CardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Score Card";
+			};
+			name = Debug;
+		};
+		3DA109BB2C6ADF85007AD3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9C3VCN3Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kamholz.tyler.Score-CardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Score Card";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA1098A2C6ADF84007AD3C4 /* Build configuration list for PBXProject "Score Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA109B12C6ADF85007AD3C4 /* Debug */,
+				3DA109B22C6ADF85007AD3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA109B32C6ADF85007AD3C4 /* Build configuration list for PBXNativeTarget "Score Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA109B42C6ADF85007AD3C4 /* Debug */,
+				3DA109B52C6ADF85007AD3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA109B62C6ADF85007AD3C4 /* Build configuration list for PBXNativeTarget "Score CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA109B72C6ADF85007AD3C4 /* Debug */,
+				3DA109B82C6ADF85007AD3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA109B92C6ADF85007AD3C4 /* Build configuration list for PBXNativeTarget "Score CardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA109BA2C6ADF85007AD3C4 /* Debug */,
+				3DA109BB2C6ADF85007AD3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D55132A2C6C013D00098734 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D55132B2C6C013D00098734 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D55132A2C6C013D00098734 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3D55132D2C6C02C200098734 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D55132A2C6C013D00098734 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DA109872C6ADF84007AD3C4 /* Project object */;
+}
